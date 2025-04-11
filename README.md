@@ -213,4 +213,4 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 
 ## Contact
 
-Project Link: [https://github.com/jio-gl/multiguard](https://github.com/jio-gl/multiguard) 
+Project Link: [https://github.com/jio-gl/multiguard](https://github.com/jio-gl/multiguard)
