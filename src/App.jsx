@@ -58,7 +58,8 @@ const App = () => {
     if (!isConnected) {
       return (
         <div className="text-center py-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">Protect Your Digital Assets</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-2">Protect Your Digital Assets</h2>
+          <h3 className="text-2xl font-semibold text-gray-700 mb-4">MultiSig Governance Made Simple</h3>
           <p className="text-gray-600 mb-8 max-w-lg mx-auto">
             MultiGuard lets you share control of your NFTs, tokens, and smart contracts with trusted friends or team members.
           </p>

@@ -26,7 +26,7 @@
     "deploy:local": "npx hardhat run scripts/deployExampleToken.js --network localhost",
     "deploy:arbitrum": "npx hardhat run scripts/deployArbitrum.js --network arbitrumOne",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -b gh-pages-new",
     "update-artifact": "node scripts/update-artifact.js",
     "flatten": "npx truffle-flattener contracts/MultiGuard.sol > flattened/MultiGuardFlattened.sol",
     "verify": "npx hardhat verify --network arbitrumOne",
