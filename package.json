@@ -1,0 +1,65 @@
+{
+  "name": "multiguard-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://jio-gl.github.io/multiguard",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "@tailwindcss/forms": "^0.5.10",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ethers": "^6.13.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "compile": "npx hardhat compile && node scripts/update-artifact.js",
+    "node": "npx hardhat node",
+    "deploy:local": "npx hardhat run scripts/deployExampleToken.js --network localhost",
+    "deploy:arbitrum": "npx hardhat run scripts/deployArbitrum.js --network arbitrumOne",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "update-artifact": "node scripts/update-artifact.js",
+    "flatten": "npx truffle-flattener contracts/MultiGuard.sol > flattened/MultiGuardFlattened.sol",
+    "verify": "npx hardhat verify --network arbitrumOne",
+    "deploy:verify:arbitrum": "npm run compile && npm run deploy:arbitrum"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.13",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@openzeppelin/hardhat-upgrades": "^3.9.0",
+    "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
+    "hardhat": "^2.19.5",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "truffle-flattener": "^1.6.0"
+  }
+}
