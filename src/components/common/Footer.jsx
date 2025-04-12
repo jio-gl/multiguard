@@ -28,6 +28,17 @@ const Footer = () => {
             Security Audit Report
           </a>
         </p>
+        <p className="mt-2">
+          <a 
+            href="https://github.com/jio-gl/multiguard"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-800 inline-flex items-center gap-1"
+          >
+            <span role="img" aria-label="github">📦</span>
+            GitHub Repository
+          </a>
+        </p>
       </div>
     </footer>
   );
