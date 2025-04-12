@@ -107,7 +107,7 @@ const App = () => {
                 <div className="p-4 border border-indigo-100 rounded-lg bg-indigo-50">
                   <h3 className="font-medium text-indigo-800 mb-2">🆕 Create New Shield</h3>
                   <p className="mb-3 text-sm text-gray-600">
-                    Set up a new MultiGuard contract for shared control of assets.
+                    Set up a new MultiGuard contract for shared control of other contracts.
                   </p>
                   <button 
                     onClick={() => setActiveTab('deploy')}
@@ -120,7 +120,7 @@ const App = () => {
                 <div className="p-4 border border-green-100 rounded-lg bg-green-50">
                   <h3 className="font-medium text-green-800 mb-2">🔒 Protect Assets</h3>
                   <p className="mb-3 text-sm text-gray-600">
-                    Let your existing assets with a single owner be controlled by a MultiGuard Shield with co-owners.
+                    Let your existing contracts with a single owner be controlled by a MultiGuard Shield with co-owners.
                   </p>
                   <button 
                     onClick={() => setActiveTab('migrate')}
@@ -133,7 +133,7 @@ const App = () => {
                 <div className="p-4 border border-purple-100 rounded-lg bg-purple-50">
                   <h3 className="font-medium text-purple-800 mb-2">⚙️ Manage Shield</h3>
                   <p className="mb-3 text-sm text-gray-600">
-                    Manage with co-owners an existing MultiGuard Shield.
+                    Manage with co-owners a MultiGuard Shield that provides governance over multiple contracts.
                   </p>
                   <button 
                     onClick={() => setActiveTab('manage')}
