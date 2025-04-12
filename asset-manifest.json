@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/multiguard/static/css/main.cffd22e4.css",
-    "main.js": "/multiguard/static/js/main.810c7b0b.js",
+    "main.js": "/multiguard/static/js/main.05d9ca61.js",
     "index.html": "/multiguard/index.html",
     "main.cffd22e4.css.map": "/multiguard/static/css/main.cffd22e4.css.map",
-    "main.810c7b0b.js.map": "/multiguard/static/js/main.810c7b0b.js.map"
+    "main.05d9ca61.js.map": "/multiguard/static/js/main.05d9ca61.js.map"
   },
   "entrypoints": [
     "static/css/main.cffd22e4.css",
-    "static/js/main.810c7b0b.js"
+    "static/js/main.05d9ca61.js"
   ]
 }
