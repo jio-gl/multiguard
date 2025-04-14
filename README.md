@@ -1,4 +1,4 @@
-# MultiGuard
+# 🛡️🛡️🛡️ MultiGuard
 
 MultiGuard is a decentralized multisig governance protocol that enables secure and decentralized control of digital assets through smart contracts on the Ethereum blockchain. The protocol implements a robust governance framework where multiple authorized signers must approve transactions and administrative actions. MultiGuard is fully compatible with all EVM-compatible chains, allowing for seamless deployment across multiple networks from the web interface.
 
